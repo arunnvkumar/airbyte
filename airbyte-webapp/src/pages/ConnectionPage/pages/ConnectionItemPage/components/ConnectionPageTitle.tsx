@@ -10,7 +10,7 @@ import { Text } from "components/ui/Text";
 import { ConnectionStatus, DestinationRead, SourceRead, WebBackendConnectionRead } from "core/request/AirbyteClient";
 
 import { ConnectionSettingsRoutes } from "../ConnectionSettingsRoutes";
-import ConnectionName from "./ConnectionName";
+import { ConnectionName } from "./ConnectionName";
 import styles from "./ConnectionPageTitle.module.scss";
 import { StatusMainInfo } from "./StatusMainInfo";
 
