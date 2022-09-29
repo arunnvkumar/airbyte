@@ -9,7 +9,7 @@ import { getConnectionTableData } from "components/EntityTable/utils";
 import { RoutePaths } from "pages/routePaths";
 
 import { WebBackendConnectionListItem } from "../../../../../core/request/AirbyteClient";
-import styles from "./SourceConnection.module.scss";
+import styles from "./SourceConnectionTable.module.scss";
 
 interface IProps {
   connections: WebBackendConnectionListItem[];
